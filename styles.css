@@ -1,0 +1,132 @@
+body {
+  color: rgb(241, 241, 241);
+  background-color: #0f171e;
+}
+
+.bg-strive-dark {
+  background-color: #0f171e;
+  background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+  background-repeat: repeat-x;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  border-bottom: 1px solid white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+  margin: 8px;
+}
+
+.navbar-collapse img[src$="lens.svg"] {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.navbar-collapse img[src$="lens.svg"]:hover {
+  opacity: 1;
+}
+
+#dropdownMenuButton {
+  color: rgba(255, 255, 255, 0.5);
+}
+#dropdownMenuButton:hover span {
+  color: rgba(255, 255, 255, 1);
+}
+
+#dropdownMenuButton > span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  filter: drop-shadow(0 5px 3px #00000098);
+}
+
+.prime-logo {
+  position: relative;
+  bottom: -5px;
+}
+
+.prime-badge {
+  position: absolute;
+  left: 0.25rem;
+}
+
+.section-title a {
+  color: #00a8e1;
+  font-size: 0.9rem;
+}
+.section-title a:hover {
+  text-decoration: none;
+  color: #39c6f5;
+}
+
+@media (min-width: 576px) {
+  #carouselExampleControls .carousel-control-prev,
+  #carouselExampleControls .carousel-control-next {
+    width: 15px;
+  }
+
+  #carouselExampleControls .carousel-control-prev {
+    left: -15px;
+  }
+
+  #carouselExampleControls .carousel-control-next {
+    right: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #carouselExampleControls .carousel-control-prev,
+  #carouselExampleControls .carousel-control-next {
+    width: 20px;
+  }
+
+  #carouselExampleControls .carousel-control-prev {
+    left: -20px;
+  }
+
+  #carouselExampleControls .carousel-control-next {
+    right: -20px;
+  }
+}
+
+/* ADDED AFTER LECTURE */
+footer {
+  text-align: center;
+}
+
+footer .footer-logo {
+  display: inline-block;
+  width: 120px;
+  height: 48px;
+  background-image: url("../logo/strivevideo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer a {
+  color: #01a3db;
+}
+
+footer a:hover {
+  color: #14b5eb;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+footer ul:last-of-type {
+  color: rgba(255, 255, 255, 0.45);
+}
